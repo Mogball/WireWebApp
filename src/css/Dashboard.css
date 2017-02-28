@@ -1,0 +1,35 @@
+.dashboard {
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    -o-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -100;
+}
+
+.popup.show {
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    -o-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-placeholder {
+    height: 70px;
+    width: 100%;
+}
