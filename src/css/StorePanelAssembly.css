@@ -454,6 +454,11 @@ div.popup-type-2-vertB {
     color: #555;
 }
 
+.profile-popup-toplevel div.popup-close-button i:active {
+    color: #555;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 .profile-popup-toplevel h5 {
     font-weight: 300;
     color: #444;
